@@ -5,14 +5,14 @@ var rand1=Math.floor(Math.random()*6)+1;
 
 var randimg1="dice"+rand1+".png";
 
-var radimgsrc1="images/"+randimg1;
+var radimgsrc1="Images/"+randimg1;
 
 
 var rand2=Math.floor(Math.random()*6)+1;
 
 var randimg2="dice"+rand2+".png";
 
-var radimgsrc2="images/"+randimg2;
+var radimgsrc2="Images/"+randimg2;
 
 document.querySelectorAll("img")[0].setAttribute("src",radimgsrc1);
 
